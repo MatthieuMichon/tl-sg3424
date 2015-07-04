@@ -110,7 +110,13 @@ TL-SG3424#show interface vlan 1
 
 Making the changes persistant after a reboot or a power outage.
 
-TBD
+```
+TL-SG3424#copy running-config startup-config
+ Start to save user config......
+
+ Saving user config OK!
+```
+The command takes no more than a few seconds to complete.
 
 #### Setting the SSH enable password
 
