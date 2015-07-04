@@ -51,13 +51,6 @@ Note: This switch uses a rather odd **38400** baud/s rate, instead of your usual
 
 ### Configuration
 
-| Command | CLI Help Description | Remarks |
-| --- | --- | --- |
-| enable | Enter privileged EXEC mode | --- |
-| configure | Enter configuration mode | Avail in privileged mode only |
-
-Stuff regarding TP-Link's SG3424 series switches
-
 #### Changing the management IP address
 
 The managemet IP address is the VLAN #1 and displayed using `show interface vlan 1`
